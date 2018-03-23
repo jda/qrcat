@@ -30,8 +30,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("display interval would be %d\n", *displayInterval)
-
 	block := 1
 	b := make([]byte, *blockSize)
 	for {
